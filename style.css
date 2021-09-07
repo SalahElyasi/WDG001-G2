@@ -1,9 +1,30 @@
-/* body {
+html {
+  font-size: 1rem;
+}
+
+body {
   width: 85%;
   margin: 0 auto;
 }
 
 .header-text {
   margin-top: 4em;
-  text-align: center;
-} */
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

@@ -40,6 +40,7 @@ body {
 }
 
 .font-h1 {
+
   font-family: "Rammetto One", cursive;
   color: darkgoldenrod;
   font-size: 6em;
@@ -49,6 +50,17 @@ body {
   width: 105%;
   border: groove 4px gold;
   box-shadow: -6px 3px 10px 14px rgba(255, 254, 179, 0.8);
+
+	font-family: 'Rammetto One', cursive;
+	color: darkgoldenrod;
+	font-size: 6em;
+	text-shadow: -19px 11px 5px rgba(255,243,153,0.92); 
+}
+
+.pic-1:hover {
+	width: 110%;
+	border: groove 4px gold;
+	box-shadow: -6px 3px 10px 14px rgba(255,254,179,0.8);
 }
 
 /* ----------------up------------- */

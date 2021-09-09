@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+
 html {
   font-size: 1rem;
 }
@@ -27,6 +32,23 @@ body {
   html {
     font-size: 1.6rem;
   }
+}
+
+.font-nav {
+  font-family: "Freckle Face", cursive;
+  font-size: 2em;
+}
+
+.font-h1 {
+  font-family: "Rammetto One", cursive;
+  color: darkgoldenrod;
+  font-size: 6em;
+}
+
+.pic-1:hover {
+  width: 105%;
+  border: groove 4px gold;
+  box-shadow: -6px 3px 10px 14px rgba(255, 254, 179, 0.8);
 }
 
 /* ----------------up------------- */

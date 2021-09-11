@@ -35,16 +35,33 @@ body {
 }
 
 .font-nav {
-	font-family: "Freckle Face", cursive;
+	font-family: "Freckle Face";
 	font-size: 2em;
 }
 
 .font-h1 {
-	font-family: 'Rammetto One', cursive;
+	font-family: 'Rammetto One';
 	color: darkgoldenrod;
 	font-size: 6em;
 	text-shadow: -19px 11px 5px rgba(255,243,153,0.92); 
 }
+
+.font-h4 {
+	font-family: 'Caveat';
+}
+/* attempt to transition
+.pic-1 {
+	transition: 1s;
+}
+
+.pic-1:hover {
+	width: 110%;
+	border: groove 4px gold;
+	box-shadow: -6px 3px 10px 14px rgba(255,254,179,0.8);
+	transform: scale ()
+}
+*/
+
 
 .pic-1:hover {
 	width: 110%;
@@ -59,10 +76,10 @@ body {
 
 .font-footer {
 	font-family: 'Fredoka One';
+	text-shadow:12px 20px 6px rgba(205,206,85,0.71);
 }
 
 .font-com {
 	font-family: 'Caveat';
 	background-color: rgb(235, 217, 116);
-
 }
